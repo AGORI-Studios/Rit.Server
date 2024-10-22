@@ -1,4 +1,4 @@
-let channelNames = [
+const channelNames = [
     "Global",
 ]
 
@@ -19,4 +19,7 @@ const specialUsers = [
     }
 ]
 
-export { channelNames, specialUsers }
+export default {
+    channelNames,
+    specialUsers
+}
