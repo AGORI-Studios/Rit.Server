@@ -109,7 +109,7 @@ server.on("connection", (socket) => {
                 var obj = JSON.parse(json);
 
                 if (obj.action === "getServers") {
-                    json = `{"servers": ${JSON.stringify(servers)}, "action": "gotServers", "user": "${obj.user}"}`;
+                    json = `{"servers": ${JSON.stringify(servers)}, "action": "gotServers", "user": ${JSON.stringify(obj.user)}}`;
                 }
 
                 const payload = "__JSON__START__" + json + "__JSON__END__";
