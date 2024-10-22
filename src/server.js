@@ -1,6 +1,6 @@
 const net = require("net");
 const { profanity, CensorType } = require("@2toad/profanity");
-const { chatChannels, specialUsers } = require("./data");
+const { channelNames, specialUsers } = require("./data");
 
 const cfg = {
     port: 1337,

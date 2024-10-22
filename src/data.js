@@ -1,4 +1,4 @@
-const chatChannels = [
+channelNames = [
     "Global",
 ]
 
@@ -19,4 +19,4 @@ const specialUsers = [
     }
 ]
 
-export { chatChannels, specialUsers }
+export { channelNames, specialUsers }
