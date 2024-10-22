@@ -19,7 +19,7 @@ const specialUsers = [
     }
 ]
 
-export default {
+module.exports = {
     channelNames,
     specialUsers
 }
