@@ -1,4 +1,4 @@
-channelNames = [
+let channelNames = [
     "Global",
 ]
 
