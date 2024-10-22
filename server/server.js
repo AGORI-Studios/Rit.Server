@@ -149,3 +149,7 @@ server.on('listening', () => {
 });
 
 server.listen(cfg.port, '::');
+
+setInterval(() => {
+    console.log('Server running as of ' + new Date());
+}, 60000);
