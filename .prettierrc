@@ -1,6 +1,6 @@
 {
   "trailingComma": "none",
-  "singleQuote": true,
-  "tabWidth": 2,
+  "singleQuote": false,
+  "tabWidth": 4,
   "useTabs": false
 }
